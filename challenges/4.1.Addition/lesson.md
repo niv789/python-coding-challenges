@@ -11,5 +11,6 @@ In this exercise, you will add two integers using the plus (+) operator.
 4
 ```
 
-**_Instructions:_**  
+**_Instructions:_**
+
 **Change the 0 so that total will equal 20.**
