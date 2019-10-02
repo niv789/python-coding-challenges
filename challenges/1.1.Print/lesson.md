@@ -1,11 +1,23 @@
 ## Print
 - http://www.python-course.eu/python3_print.php
+
 The print() function is used to present the output of a program.
+syntax:print(value(s),sep='',end='\n',file=file,flush=flush)
+parameters
+1.values:any value and as many you like.
+2.sep:'separator'(optional)
+      specify how to separate the objects.
+3.end='end' (optional)
+      specify what to print at the end.
+4.file:(optional)
+      an object with a write method.
+5.flush:(optional)
+        A boolean, specifying if the ouyput is flushed or buffered.
 ```
 >>> print(“Hello World”)
 Hello World
-```
 It can have several parameters.
+```
 ```
 >>> print(‘Hello’,  12,  ‘98’)
 Hello 12 98
@@ -30,5 +42,7 @@ file=’’
 >> print("no", file=fh)
 >>> fh.close()
 ```
+
+
 **_Instructions:_**
 **Put your name and sname to appropriate places, change '*' to parameters of separator '_' and in the end of the line '!'.**
